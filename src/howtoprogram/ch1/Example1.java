@@ -8,7 +8,7 @@ import javafx.stage.Stage;
 
 public class Example1 extends Application {
 
-    public int[][] getTileColors() {
+    int[][] getTileColors() {
         return new int[][]{
                 {0, 255},
                 {255, 0 }
