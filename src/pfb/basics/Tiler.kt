@@ -6,7 +6,7 @@ import javafx.scene.paint.Color
 
 class Tiler(private val tileColors: Array<Array<Int>>) {
 
-    private val pictureSize = 256
+    private val pictureSize = 200
 
     fun setUpPicture(): Canvas {
         val canvas = Canvas(pictureSize.toDouble(), pictureSize.toDouble())
